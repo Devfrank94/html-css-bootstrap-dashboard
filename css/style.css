@@ -1,5 +1,15 @@
+:root {
+  --blue: #1b72e8;
+  --blue-dark: #051E34;
+  --gray: #E5E5E5;
+  --orange: #FF8F00;
+}
+
 
 /* General */
+
+
+
 
 /* Utilities */
 .fm-top-bar {
@@ -23,7 +33,25 @@
   min-height: 30px;
 }
 
+/* navbar */
 
+.search .fa-search{
+  position: absolute;
+  top: 18px;
+  left: 20px;
+}
+
+.fm-top-bar .form-control{
+  background-color: var(--gray);
+}
+
+.fm-top-bar .fa-solid{
+  padding-left: 15px;
+}
+
+.fm-top-bar .fa-bell{
+  color: var(--orange);
+}
 
 /* Style Main */
 
@@ -42,3 +70,4 @@
 .fm-main-content {
   width: calc(100vw - 75px);
 }
+
