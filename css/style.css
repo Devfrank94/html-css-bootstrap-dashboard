@@ -1,0 +1,44 @@
+
+/* General */
+
+/* Utilities */
+.fm-top-bar {
+  height: 9vh;
+  background-color: rgb(248, 249, 250);
+}
+
+.logo-header {
+  margin: 0 auto;
+}
+
+.test {
+  background-color: rgba(0, 106, 255, 0.2);
+  border: 1px solid black;
+  min-height: 30px;
+}
+
+.test2 {
+  background-color: rgba(0, 8, 255, 0.2);
+  border: 1px solid black;
+  min-height: 30px;
+}
+
+
+
+/* Style Main */
+
+.fm-main-wrapper {
+  height: calc(100vh - 9vh);
+}
+
+.fm-aside {
+  width: 75px;
+}
+
+.aside-top ul li {
+  list-style: none;
+}
+
+.fm-main-content {
+  width: calc(100vw - 75px);
+}
