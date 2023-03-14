@@ -2,6 +2,7 @@
   --blue: #1b72e8;
   --blue-dark: #051E34;
   --gray: #E5E5E5;
+  --ligray: #efefef;
   --orange: #FF8F00;
 }
 
@@ -69,5 +70,9 @@
 
 .fm-main-content {
   width: calc(100vw - 75px);
+}
+
+.row-cols-1 h3{
+  background-color: var(--ligray);
 }
 
