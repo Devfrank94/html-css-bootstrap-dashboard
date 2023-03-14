@@ -57,19 +57,32 @@
 /* Style Main */
 
 .fm-main-wrapper {
-  height: calc(100vh - 9vh);
+  height: calc(100vh - 10vh);
 }
 
-.fm-aside {
-  width: 75px;
+main .aside{
+  flex-shrink: 0;
+  width: 100px;
+  height: 100%;
+  background-color: var(--blue-dark);
+  background-image: url(../img/sidebar-bg.png);
 }
 
-.aside-top ul li {
+.aside ul li{
   list-style: none;
 }
 
+.aside i{
+  font-size: 14px;
+}
+
+.aside span{
+  font-size: 14px;
+  padding-left: 5px;
+}
+
 .fm-main-content {
-  width: calc(100vw - 75px);
+  width: calc(100vw - 100px);
 }
 
 .row-cols-1 h3{
