@@ -54,16 +54,24 @@
   color: var(--orange);
 }
 
+.col .fa-solid.fa-bell{
+  cursor: pointer;
+}
+
 /* Style Main */
 
 .fm-main-wrapper {
-  height: calc(100vh - 10vh);
+  height: calc(100% - 10vh)
+}
+
+main {
+  padding-top: 80px;
 }
 
 main .aside{
   flex-shrink: 0;
   width: 100px;
-  height: 100%;
+  height: calc(100vh - 80px);
   background-color: var(--blue-dark);
   background-image: url(../img/sidebar-bg.png);
 }
