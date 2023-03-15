@@ -38,7 +38,7 @@
 
 .search .fa-search{
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 20px;
 }
 
@@ -61,17 +61,17 @@
 /* Style Main */
 
 .fm-main-wrapper {
-  height: calc(100% - 10vh)
+  height: calc(100% - 10vh);
+  width: 100%;
 }
 
 main {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 main .aside{
   flex-shrink: 0;
-  width: 100px;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 60px);
   background-color: var(--blue-dark);
   background-image: url(../img/sidebar-bg.png);
 }
@@ -87,10 +87,6 @@ main .aside{
 .aside span{
   font-size: 14px;
   padding-left: 5px;
-}
-
-.fm-main-content {
-  width: calc(100vw - 100px);
 }
 
 .row-cols-1 h3{
