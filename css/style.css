@@ -84,3 +84,8 @@ main .aside{
   background-color: var(--ligray);
 }
 
+/* Table Prossime classi */
+table .image{
+  width: 25px;
+}
+
