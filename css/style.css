@@ -60,6 +60,26 @@ main {
   padding-top: 60px;
 }
 
+/* Top bar blue with canvas */
+span.fm_badge{
+  background-color: rgba(0, 0, 0, .3);
+  vertical-align: middle;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.blue-top span{
+  padding-bottom: 7px;
+}
+
+.fm_fs-7{
+  font-size: 0.7rem;
+}
+
+.offcanvas {
+  --bs-offcanvas-width: 500px;
+}
+
 main .aside{
   flex-shrink: 0;
   height: 100%;
