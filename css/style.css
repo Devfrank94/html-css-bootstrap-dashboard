@@ -114,6 +114,8 @@ table .image{
   width: 25px;
 }
 
+/* Gap dimensioni logo mobile */
+
 @media all and (min-width:350px){
   header .logo{
     width: 50px;
