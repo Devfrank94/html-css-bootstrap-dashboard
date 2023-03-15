@@ -87,6 +87,11 @@ main .aside{
   background-image: url(../img/sidebar-bg.png);
 }
 
+.aside .active:hover{
+  background-color: gray;
+  cursor: pointer;
+}
+
 .aside ul li{
   list-style: none;
 }
@@ -109,3 +114,9 @@ table .image{
   width: 25px;
 }
 
+@media all and (min-width:350px){
+  header .logo{
+    width: 50px;
+    margin: 0 auto;
+  }
+}
