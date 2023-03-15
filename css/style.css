@@ -62,7 +62,7 @@ main {
 
 main .aside{
   flex-shrink: 0;
-  height: calc(100vh - 60px);
+  height: 100%;
   background-color: var(--blue-dark);
   background-image: url(../img/sidebar-bg.png);
 }
