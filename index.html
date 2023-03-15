@@ -24,11 +24,15 @@
         <div class="row h-100 d-flex align-items-center">
           
           <!-- logo -->
-          <div class="col-2 h-100 align-items-center d-flex">
-            <picture class="logo-header w-75">
-              <img src="img/logo.svg" alt="" class="col d-none w-100 d-md-block">
-              <img src="img/mobile-logo.png" alt="" class="col w-100 d-md-none">
-            </picture>
+          <div class="col-1 col-lg-2 py-lg-3 px-lg-2 ps-2">
+
+            <a class="logo-header" href="#">
+              <img src="img/logo.svg" class="d-none d-lg-block">
+              <div class="logo">
+                <img src="img/mobile-logo.png" class="img-fluid d-lg-none">
+              </div>
+            </a>
+  
           </div>
 
           <!-- searchbar -->
@@ -40,12 +44,12 @@
           <!-- icon navbar -->
           <div class="col-2 h-100 align-items-center d-flex">
             <div class="row">
-              <div class="col align-items-center d-flex text-muted d-none d-md-inline-flex">
+              <div class="col d-flex text-muted d-none d-md-inline-block">
                 <i class="fa-solid fa-list"></i>
                 <i class="fa-solid fa-circle-question"></i>
                 <i class="fa-solid fa-ellipsis-vertical"></i>
               </div>
-              <div class="col">
+              <div class="col-auto d-flex">
                 <i class="fa-solid fa-bell align-middle" data-bs-toggle="dropdown" aria-expanded="false"></i>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Profilo</a></li>
